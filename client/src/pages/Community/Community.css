@@ -74,9 +74,9 @@
 }
 
 .community-container .add-post-button {
-  position: fixed;
-  bottom: 30px;
-  right: 20px;
+   position: fixed;
+  top: 350px;
+  right: 340px;
   border-radius: 50%;
   display: flex;
   align-items: center;

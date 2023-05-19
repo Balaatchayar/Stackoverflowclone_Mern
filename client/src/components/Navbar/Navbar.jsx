@@ -49,12 +49,12 @@ function Navbar() {
 
     const handleplan = () => {
         dispatch({ type: 'LOGOUT'});
-        window.location.href= 'https://payment-gateway-delta.vercel.app/'
+        window.location.href= 'https://payment-gateway-delta.vercel.app'
         dispatch(setCurrentUser(null))
       }
     const plan = () => {
         dispatch({ type: 'LOGOUT'});
-        window.location.href='https://payment-gateway-delta.vercel.app/'
+        window.location.href='https://payment-gateway-delta.vercel.app'
         dispatch(setCurrentUser(null))
       }
       const chatbot = () => {

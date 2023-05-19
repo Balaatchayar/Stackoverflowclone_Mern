@@ -74,10 +74,10 @@
 }
 
 .community-container .add-post-button {
-   position: fixed;
-  top: 350px;
-  right: 340px;
-  border-radius: 50%;
+  position: fixed;
+  top: 310px;
+  right: 615px;
+  border-radius: 90%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@
   z-index: 300;
 }
 .community-container .add-post-button .add-button {
-  font-size: 1.3em;
+  font-size: 2.4em;
 }
 
 /* --- community posts --- */

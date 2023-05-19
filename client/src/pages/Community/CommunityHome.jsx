@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Community.css";
-import Poster from "../../assets/community.png";
+import Poster from "../../assets/commm.jpg";
 import Logo from "../../assets/com.jpg";
 import AboutCommunity from "./AboutCommunity";
 import Post from "../../components/Post/Post";

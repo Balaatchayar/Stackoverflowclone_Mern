@@ -54,12 +54,12 @@ function Navbar() {
       }
     const plan = () => {
         dispatch({ type: 'LOGOUT'});
-        window.location.href='https://payment-gateway-delta.vercel.app'
+        window.location.href='https://payment-gateway-xi.vercel.app'
         dispatch(setCurrentUser(null))
       }
       const chatbot = () => {
         dispatch({ type: 'LOGOUT'});
-        window.location.href='https://chatbot-frontend-lyqv.onrender.com'
+        window.location.href='https://payment-gateway-xi.vercel.app'
         dispatch(setCurrentUser(null))
       }
        const handlechatbot = () => {

@@ -48,25 +48,26 @@ function Navbar() {
     },[dispatch, navigate, User?.token]);
 
     const handleplan = () => {
-        dispatch({ type: 'LOGOUT'});
-        window.location.href= 'https://payment-gateway-xi.vercel.app'
-        dispatch(setCurrentUser(null))
-      }
-    const plan = () => {
-        dispatch({ type: 'LOGOUT'});
+       if(User === null){
+        alert("Login to continue")
+        navigate('/Auth')
+       }else{
         window.location.href='https://payment-gateway-xi.vercel.app'
-        dispatch(setCurrentUser(null))
+        // dispatch(setCurrentUser(null))
+       }
       }
-      const chatbot = () => {
-        dispatch({ type: 'LOGOUT'});
+      const handlechatbot = () => {
+        if(User === null){
+            alert("Login to continue")
+            navigate('/')
+           }else{
         window.location.href='https://chatfront-b0xa.onrender.com'
-        dispatch(setCurrentUser(null))
+        // dispatch(setCurrentUser(null))
+           }
       }
-       const handlechatbot = () => {
-        dispatch({ type: 'LOGOUT'});
-        window.location.href='https://chatfront-b0xa.onrender.com'
-        dispatch(setCurrentUser(null))
-      }
+
+      
+
     return (
         <nav className="main-nav">
             <div className="navbar">
@@ -79,17 +80,17 @@ function Navbar() {
                             <li><Link style={{textDecoration: "none", color: "black"}} to="/Questions">Questions</Link></li>
                             <li><Link style={{textDecoration: "none", color: "black"}} to="/Tags">Tags</Link></li>
                             <li><Link style={{ textDecoration: "none", color: "black" }} to="/Users">Users</Link></li>
-                            <li><Link style={{textDecoration: "none", color: "black"}} to="/Plan"  onClick={handleplan}>Plans</Link></li>
+                            <li><Link style={{textDecoration: "none", color: "black"}} to="/"  onClick={handleplan}>Plans</Link></li>
                             <li><Link style={{textDecoration: "none", color: "black"}} to="/CommunityHome">Community</Link></li>
-                            <li><Link style={{textDecoration: "none", color: "black"}} to="/Chatbot"  onClick={handlechatbot}>Chatbot</Link></li>
+                            <li><Link style={{textDecoration: "none", color: "black"}} to="/" onClick={handlechatbot}>Chatbot</Link></li>
                         </ul>
                     </li>
                 </ul>
                 <Link to="/" className="nav-item nav-logo">
                     <img src={logo} alt="logo" height="25"/>
                 </Link>
-                <Link to="/Chatbot" className="nav-item nav-btn" onClick={chatbot}>Chatbot</Link>
-                <Link to="/Plan" className="nav-item nav-btn" onClick={plan}>Plans</Link>
+                <Link to="/" className="nav-item nav-btn" onClick={handlechatbot}>Chatbot</Link>
+                <Link to="/" className="nav-item nav-btn" onClick={handleplan}>Plans</Link>
                 <Link to="/CommunityHome" className="nav-item nav-btn">Community</Link>
                 <form>
                     <input type="text" placeholder="Search..."/>

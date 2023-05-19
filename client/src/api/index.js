@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL:  "https://stackoverflowclone-mern.vercel.app/",
+  baseURL:  "https://mern-backend-lh2f.onrender.com/",
 });
 
 API.interceptors.request.use((req) => {

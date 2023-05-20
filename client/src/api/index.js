@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL: "https://mernproject-78yn.onrender.com",
+  baseURL: "https://mernproject-78yn.onrender.com/",
 });
 
 API.interceptors.request.use((req) => {

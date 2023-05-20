@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({ 
-  baseURL: "https://stackoverflow-mern-aj.onrender.com",
+  baseURL: "http://localhost:5000",
 });
 
 API.interceptors.request.use((req) => {

@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://mernproject-78yn.onrender.com/",
 });
 
 API.interceptors.request.use((req) => {

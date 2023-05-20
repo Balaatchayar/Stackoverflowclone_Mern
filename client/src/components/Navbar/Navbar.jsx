@@ -52,7 +52,7 @@ function Navbar() {
         alert("Login to continue")
         navigate('/Auth')
        }else{
-        window.location.href='https://payment-gateway-xi.vercel.app'
+        window.location.href='https://payment-gatewayy.vercel.app'
         // dispatch(setCurrentUser(null))
        }
       }

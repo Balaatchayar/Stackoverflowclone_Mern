@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL: "https://stackoverflow-clone-aaryan.onrender.com/",
+  baseURL: "https://mernnbackk.onrender.com/",
 });
 
 API.interceptors.request.use((req) => {

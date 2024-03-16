@@ -4,16 +4,18 @@ Stack Overflow Clone
 - Integrated a chatbot and also Integrated a user community feature, enabling users to like and comment on shared media posts
 - Used MongoDB for  Storing data.
 
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your_username/project_name.git
 
 
-# `yarn install`
-use  the above command on the client side to install dependencies
 
-# `npm install`
-use  the above command on the server side to install dependencies
+   Install dependencies:
+   
 
-# `yarn start`
-use  the above command on the client side to run client
 
-# `npm start`
-use  the above command on the server side to run server

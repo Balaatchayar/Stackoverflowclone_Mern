@@ -15,4 +15,4 @@ Stack Overflow Clone
 ```
 
 
-![Grilli](client/src/assets/Screenshot 1.png)
+![Project Screenshot](client/src/assets/Screenshot 1.png)

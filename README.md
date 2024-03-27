@@ -22,6 +22,6 @@
 ```
 
 
-![Project Screenshot](./client/src/assets/Screenshot_1.png)
+![Project Screenshot](./client/src/assets/Screenshot1.png)
 
-![Project Screenshot](./client/src/assets/Screenshot_2.png)
+![Project Screenshot](./client/src/assets/Screenshot2.png)

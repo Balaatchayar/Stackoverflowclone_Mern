@@ -12,7 +12,7 @@ Stack Overflow Clone
 
    ```bash
    git clone https://github.com/BalaAtchaya2004/Stackoverflowclone_Mern
-
+```
 
 
 ![Grilli](client/src/assets/Screenshot 1.png)

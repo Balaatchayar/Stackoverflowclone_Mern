@@ -1,6 +1,12 @@
-                                                    Stack Overflow Clone
+<div align="center">
+  <h2 align = "center"> Stack Overflow Clone</h2>
+  <h4 align = "center">facilitating community-driven question and answer interactions</h4>
 
-- Developed a StackOverflow clone website using the MERN stack, facilitating community-driven question and answer interactions. 
+ 
+</div>
+
+###
+
 - Integrated a chatbot and also Integrated a user community feature, enabling users to like and comment on shared media posts
 - Used MongoDB for  Storing data.
 

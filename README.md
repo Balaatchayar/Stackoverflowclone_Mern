@@ -1,4 +1,4 @@
-Stack Overflow Clone
+                                                    Stack Overflow Clone
 
 - Developed a StackOverflow clone website using the MERN stack, facilitating community-driven question and answer interactions. 
 - Integrated a chatbot and also Integrated a user community feature, enabling users to like and comment on shared media posts
@@ -16,3 +16,5 @@ Stack Overflow Clone
 
 
 ![Project Screenshot](./client/src/assets/Screenshot_1.png)
+
+![Project Screenshot](./client/src/assets/Screenshot_2.png)

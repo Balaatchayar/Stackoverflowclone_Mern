@@ -1,6 +1,7 @@
 <div align="center">
-  <h2 align = "center"> Stack Overflow Clone</h2>
-  <h4 align = "center">facilitating community-driven question and answer interactions</h4>
+  <h1 align = "center"> Stack Overflow Clone</h1>
+  
+  <h4 align = "center">Facilitating community-driven question and answer interactions</h4>
 
  
 </div>

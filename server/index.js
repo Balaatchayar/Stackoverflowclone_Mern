@@ -16,7 +16,7 @@ app.use(cors());
 mongoose.set("strictQuery", true);
 
 app.get("/", (req, res) => {
-  res.send("This is a stack overflow clone API");
+  res.send("This is a stackoverflow clone  API");
 });
 
 app.use("/user", userRoutes);

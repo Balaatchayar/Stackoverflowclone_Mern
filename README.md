@@ -18,7 +18,7 @@
    **Clone the repository:**
 
    ```bash
-   git clone https://github.com/BalaAtchaya2004/Stackoverflowclone_Mern
+   git clone https://github.com/Balaatchayar/Stackoverflowclone_Mern
 ```
 
   **Navigate to the project directory:**

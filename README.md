@@ -9,7 +9,7 @@
 ###
 
 - Integrated a chatbot and also Integrated a user community feature, enabling users to like and comment on shared media posts
-- Used MongoDB for  Storing data.
+- Utilized MongoDB for efficient data storage
 
 ## Installation
 

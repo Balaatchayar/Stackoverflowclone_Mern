@@ -1,13 +1,13 @@
 <div align="center">
   <h1 align = "center"> Stack Overflow Clone</h1>
   
-  <h4 align = "center">Facilitating community-driven question and answer interactions</h4>
 
- 
 </div>
 
 ###
 
+- This project is a clone of the popular Q&A platform Stack overflow. It allows users to ask questions, provide answers, and interact 
+  with a community of users.
 - Integrated a chatbot and also Integrated a user community feature, enabling users to like and comment on shared media posts
 - Utilized MongoDB for efficient data storage
 
